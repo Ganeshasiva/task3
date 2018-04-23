@@ -1,0 +1,94 @@
+ .container {
+ 	width: 100%;
+ }
+ .img-responsive {
+	width: 100px;
+	height: 80px;
+}
+.text {
+	text-align: center;
+}
+.gray {
+	color: dark-red;
+}
+.red {
+	color: red;
+}
+.name {
+	text-align: left;
+	background-color: red;
+	margin: 2px 0px;
+}
+.subcls {
+	text-align: left;
+	background-color: skyblue;
+	margin: 2px 0px;
+}
+
+.sect {
+    margin: 2px 0px;
+    padding: 2px;
+    border: 1px solid #d4d4d4;
+    background-color: #ffffff;
+    font-weight: normal;
+    color: #555555;
+    padding: 11px 5px 11px 5px;
+    border-right-style: 1.0;
+}
+.tbl {
+	border-left: 0px; 
+}
+
+.img-respons {
+	width: 27px;
+	height: 25px;
+
+}
+.h4 {
+	font-weight: bold;
+}
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    padding: 4px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: left;
+    background-color: #4caf21;
+    color: white;
+
+}
+.share {
+  border: 0px solid LightGrey;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+}
+
+.share a {
+  background: red;
+  border: 1px solid red;
+  border-radius: 1px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.share a:hover {
+  background: white;
+  border: 1px solid red;
+  color: red;
+}

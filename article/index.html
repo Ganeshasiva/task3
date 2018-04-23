@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<title>Demo: Responsive Images Using CSS</title>
+<meta name="description" content="Simple techniques for implementing responsive images using CSS.">
+<meta name="author" content="Six Revisions">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="http://fonts.googleapis.com/css?family=Oxygen:700,400" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="stylesheet.css">
+<!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+<link rel="shortcut icon" href="http://sixrevisions.com/favicon.ico">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Responsive Images Using CSS</h1>
+      <a class="button" href="http://sixrevisions.com/css/responsive-images/">Read Tutorial</a>
+    </div>
+  </header>
+  <section class="instructions">
+    <div class="container">
+      Resize your browser to see the following images scale relative to your viewport's size.
+    </div>
+  </section>
+  <!-- Basic Responsive Image -->
+  <section id="basic-responsive-image">
+    <div class="container">
+      <h2>Basic Responsive Image</h2>
+      <p>This image will proportionally scale so that its width is 100% of its container. The container can have a maximum width of 960px.</p>
+      <img src="images/image01.jpg" width="960" height="640" />
+    </div>
+  </section>
+  <!-- Responsive Images in Columns -->
+  <section id="responsive-images-columns">
+    <div class="container">
+      <h2>Responsive Images in Columns</h2>
+      <p>These images are displayed adjacent to each other. They will proportionally scale depending on the size of the viewport.</p>
+      <h3>Two Columns</h3>
+      <img class="two-columns" src="images/image01.jpg" width="960" height="640" />
+      <img class="two-columns" src="images/image02.jpg" width="960" height="640" />
+      <h3>Three Columns</h3>
+      <img class="three-columns" src="images/image01.jpg" width="960" height="640" />
+      <img class="three-columns" src="images/image02.jpg" width="960" height="640" />
+      <img class="three-columns" src="images/image03.jpg" width="960" height="640" />
+    </div>
+  </section>
+  <!-- Responsive Images with Conditional Breakpoints -->
+  <section id="responsive-images-breakpoints">
+    <div class="container">
+    <h2>Responsive Images with Conditional Breakpoints</h2>
+    <p>These images will display in one column on small devices (e.g. smartphones), two columns on medium devices (e.g. tablets), and four columns on large devices (e.g. desktops).</p>
+    <img class="breakpoint" src="images/image01.jpg" width="960" height="640" />
+    <img class="breakpoint" src="images/image02.jpg" width="960" height="640" />
+    <img class="breakpoint" src="images/image03.jpg" width="960" height="640" />
+    <img class="breakpoint" src="images/image04.jpg" width="960" height="640" />
+    </div>
+  </section>
+  <!-- Full-width Responsive Image -->
+  <section id="full-width-responsive-image">
+      <div class="container">
+        <h2>Full-width Responsive Image</h2>
+        <p>This image will always be 100% wide because its container has no maximum width property.</p>
+      </div>
+      <img src="images/image05.jpg" width="2446" height="1631" />
+  </section>
+  <section id="credits">
+    <div class="container">
+      <p>Photos on this page are from <a target="_blank" href="http://gratisography.com/">Gratisography</a>.</p>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <a class="button" href="http://sixrevisions.com/css/responsive-images/">Read Tutorial</a>
+    </div>  
+  </section>
+</body>
+</html>

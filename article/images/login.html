@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title> Table Creation</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+	<body>
+		<form action="" method="get">
+		<fieldset class="Profile_Info">
+			<legend>Profile Info:</legend>
+			<p><label for=username>Username:</label>
+			<input type="text" name="username" id="username"/></p>
+			<p><label for="password">password:</label>
+			<input type="password" name="password" id="password"/><p/>
+			<p><label for="e-mail:">E-mail:</label>
+			<input type="text" name="e-mail" id="e-mail"/></p>
+			<p><label for="Address line 1">Address line 1:</label>
+			<input type="text" name="Address line 1" id="Address line 1"/></p>
+			<p><label for="Address line 2">Address line 2:</label>
+			<input type="text" name="Address line 2" id="Address line 2"/></p>
+		</fieldset></br></br>
+		<fieldset><legend>What do you do in spare time:</legend></br>
+					<label for="sport"> play sport</label>
+					<input type="checkbox" name="spare_time[]" value="sport" id="sport"/> 
+					<label for="games">play games</label>
+					<input type="checkbox" name="spare_time[]" value="Games" id="games"/> 
+					<label for="song">wathcing song</label>
+					<input type="checkbox" name="spare_time[]" value="Entertainment" id="song"/> 
+					<label for="play">play cricket</label>
+					<input type="checkbox" name="spare_time[]" value="sport" id="play"/> </br>
+			</fieldset></br></br>
+				<input type="submit" value="submit"/>
+			<input type="reset" value="reset" />
+	</body>
+	</html>
